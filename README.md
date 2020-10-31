@@ -63,7 +63,7 @@ pada gambar di atas, hasil dari inputan tersebut berwarna *hijau*<br><br>
 ```python
 dob=2020-year
 ```
-<br> Pada syntax/source diatas, saya menggunakan variable (dob) dimana untuk menghitung umur (variable **age** pada output), yaitu dengan rumus pada variable *dob*=2020-year*
+<br> Pada syntax/source diatas, saya menggunakan variable (dob) dimana untuk menghitung umur (variable **age** pada output), yaitu dengan rumus pada variable *dob=2020-year*
 <br>
 
 * langkah kali ini
