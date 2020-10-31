@@ -4,7 +4,14 @@ Nama  : Pikri Ramdani<br>
 Nim   : 312010162<br>
 Kelas : TI.20 A.1<br><br>
 
-## pertemuan - Tugas
+DAFTAR ISI
+| No | Description | Link |
+| ----- | ----- | ----- |
+| 1 | Tugas Pertemuan 5 | [click here](#pertemuan-5---tugas)
+| 2 | Tugas Pertemuan 6 - lab 1 | [click here](#pertemuan-6---lab-1)
+| 3 | Tugas Pertemuan 6 - lab 1-2 | [click here](#pertemuan-6---lab-1---2)
+ 
+## pertemuan 5 - Tugas
 
 Pada pertemuan 5 Bahasa Pemrograman saya diberi tugas oleh Dosen untuk membuat Aplikasi Biodata Python (seperti Gambar dibawah ini)
 ![tugas_5](gambar/tugas_p5.PNG)<br>
@@ -91,3 +98,7 @@ Keterangan :
 2. sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable<br>
 Hasil dari output tersebut seperti berikut :<br>
 ![All output](gambar/all_output.PNG)
+
+<br>
+===============================================================================
+## pertemuan 6 - tugas
