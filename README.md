@@ -56,7 +56,16 @@ Keterangan : <br>
 >Fungsi **input()** adalah untuk memasukan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)*<br> 
  *(newline)*<br>
 ![input](gambar/input_py.PNG)<br>
-pada gambar di atas, hasil dari inputan tersebut berwarna *hijau*<br>
+pada gambar di atas, hasil dari inputan tersebut berwarna *hijau*<br><br>
+* Untuk memasukan perintah lain seperti *Nikname, NPM, Place Of Birth, Date Of Birth, Year Of Birth, Phone Number, and Addres* mengikuti perintah sama seperti memasukan *fullname*<br>
 
+* Untuk menghitung rumus saya menggunakan variable *DOB* yaitu 2020 (Tahun sekarang) dikurangin dengan Year of Birt, pada source code berikut :<br>
+```python
+dob=2020-year
+```
+<br> Pada syntax/source diatas, saya menggunakan variable (dob) dimana untuk menghitung umur (variable **age** pada output), yaitu dengan rumus pada variable *dob*=2020-year*
+<br>
+
+* langkah kali ini
 
  
