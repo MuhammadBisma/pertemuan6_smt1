@@ -9,7 +9,7 @@ Kelas : TI.20 A.1<br><br>
 Pada pertemuan 5 Bahasa Pemrograman saya diberi tugas oleh Dosen untuk membuat Aplikasi Biodata Python (seperti Gambar dibawah ini)
 ![tugas_5](gambar/tugas_p5.PNG)<br>
 Saat ini saya akan menjelaskan hasil dari tugas tersebut.<br>
-Berikut *source code* nya : <br>
+Berikut *source code* nya atau Klik Link berikut ( [Tugas 5 python](tugas_pertemuan5.py)): <br>
 ```python
 print("==============================")
 print("= NAMA    : PIKRI RAMDANI     ")
@@ -38,7 +38,12 @@ address=input()
 
 dob=2020-year
 
-print("\n\n Assalamualaikum. ")
+print("\n\n Assalamu'alaikum. ")
 print(f"Let me introduce my self, my name is {fullname}, but you can call me {nickname}, my NPM {npm}, I was born in {pob} and iam {dob} years old, I am very glad if you want to invite my house in {address}, So don't forget to call me before with the number {phone}, \n\n Thanks you ")
-
 ```
+Berikut Penjelasannya :<br>
+```python
+print("please enter your full name : ")
+```
+Source code diatas berfungsi untuk mencetak hasil / output berupa **Please enter your full name :** (Seperti gambar dibawah ini)<br> 
+![Output fungsi Print](gambar/output_print.PNG )
