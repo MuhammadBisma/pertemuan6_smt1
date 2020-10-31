@@ -9,7 +9,7 @@ Kelas : TI.20 A.1<br><br>
 Pada pertemuan 5 Bahasa Pemrograman saya diberi tugas oleh Dosen untuk membuat Aplikasi Biodata Python (seperti Gambar dibawah ini)
 ![tugas_5](gambar/tugas_p5.PNG)<br>
 Saat ini saya akan menjelaskan hasil dari tugas tersebut.<br>
-Berikut *source code* nya atau Klik Link berikut ( [Tugas 5 python](tugas_pertemuan5.py)): <br>
+Berikut *source code* nya atau Klik Link berikut ([Tugas 5 python](tugas_pertemuan5.py)): <br>
 ```python
 print("==============================")
 print("= NAMA    : PIKRI RAMDANI     ")
@@ -47,3 +47,16 @@ print("please enter your full name : ")
 ```
 Source code diatas berfungsi untuk mencetak hasil / output berupa **Please enter your full name :** (Seperti gambar dibawah ini)<br> 
 ![Output fungsi Print](gambar/output_print.PNG )
+ * Untuk source code berikutnya adalah inputan atau membuat variable. seperti syntax dibawah ini :
+ ```python
+fullname=input()
+``` 
+Keterangan : <br> 
+>Variable adalah sebuah wadah penyimpanan data pada program yang akan akan digunakan selama program itu berjalan. yang berfungsi sebagai variable dalam source code diatas adalah **fullname** . <br>
+>Fungsi **input()** adalah untuk memasukan nilai dari layar console di command prompt, lalu kemudian mengembalikan nilai saat kita menekan tombol enter *(newline)*<br> 
+ *(newline)*<br>
+![input](gambar/input_py.PNG)
+pada gambar di atas, hasil dari inputan tersebut berwarna *hijau*<br>
+
+
+ 
