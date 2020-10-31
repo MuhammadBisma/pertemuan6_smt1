@@ -253,3 +253,29 @@ Hasil dari source code contoh diatas akan muncul seperti ini :<br>
 <br><br>
 Untuk hasil dari String Format 2 adalah :<br>
 ![Output String Format 2](gambar/string2.PNG)
+
+<br><hr><br>
+
+## pertemuan 6 - Lab 2
+* Konversi Nilai Variable <br>
+Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas Lab 2 dari Dosen, yaitu konversi Nilai Variable<br>
+Tugas 
+![Picture Lab 2](gambar/Lab1-2.PNG)
+``` python
+a=input("masukkan nilai a : ")
+b=input("masukkan nilai b : ")
+print("variable a : ",a)
+print("variable b : ",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+<br>
+Setelah saya menjelaskan source code tersebut terdapat error, seperti gambar dibawah ini :<br>
+
+![Error Lab 2](gambar/error1.PNG)<br>
+Nah, untuk kali ini kita akan 
