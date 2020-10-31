@@ -7,9 +7,9 @@ Kelas : TI.20 A.1<br><br>
 DAFTAR ISI
 | No | Description | Link |
 | ----- | ----- | ----- |
-| 1 | Tugas Pertemuan 5 | [click here](#Pertemuan-5---tugas)
-| 2 | Tugas Pertemuan 6 - Lab 1 | [click here](#Pertemuan-6---lab-1)
-| 3 | Tugas Pertemuan 6 - Lab 1-2 | [click here](#Pertemuan-6---lab-1---2)
+| 1 | Tugas Pertemuan 5 | [click here](#pertemuan-5---tugas)
+| 2 | Tugas Pertemuan 6 - Lab 1 | [click here](#pertemuan-6---lab-1)
+| 3 | Tugas Pertemuan 6 - Lab 1-2 | [click here](#pertemuan-6---lab-1-2)
  
 ## Pertemuan 5 - Tugas
 
@@ -74,7 +74,7 @@ pada gambar di atas, hasil dari inputan tersebut berwarna *hijau*<br><br>
 * Untuk memasukan perintah lain seperti *Nikname, NPM, Place Of Birth, Date Of Birth, Year Of Birth, Phone Number, and Addres* mengikuti perintah sama seperti memasukan *fullname*<br>
 
 * Untuk menghitung rumus saya menggunakan variable *DOB* yaitu 2020 (Tahun sekarang) dikurangin dengan Year of Birt, pada source code berikut :<br>
-```python
+``` python
 dob=2020-year
 ```
 <br> Pada syntax/source diatas, saya menggunakan variable (dob) dimana untuk menghitung umur (variable **age** pada output), yaitu dengan rumus pada variable *dob=2020-year*
@@ -82,7 +82,7 @@ dob=2020-year
 
 * langkah kali ini saya akan menampilkan output yang diminta oleh dosen.<br>
 output pertama yang diminta Dosen adalah menampilkan salam, yaitu dengan mengetikkan syntax/source code berikut :
-```python
+``` python
 print("\n\n Assalamu'alaikum. ")
 ```
  Keterangan :
@@ -90,7 +90,7 @@ print("\n\n Assalamu'alaikum. ")
 2. Fungsi print() seperti dijelaskan pada point **Output** diatas
 Hasil dari source code diatas adalah seperti gambar dibawah ini :<br>
 ![Output Salam](gambar/salam.PNG)
-```python
+``` python
 print(f"Let me introduce my self, my name is {fullname}, but you can call me {nickname}, my NPM {npm}, I was born in {pob} and iam {dob} years old, I am very glad if you want to invite my house in {address}, So don't forget to call me before with the number {phone}, \n\n Thanks you ")
 ``` 
 Keterangan : 
@@ -106,7 +106,7 @@ Hasil dari output tersebut seperti berikut :<br>
 ## Pertemuan 6 - Lab 1
 
 Pada halaman ini (Tugas Pertemuan 6 - Lab 1) saya diberikan tugas oleh Dosen yaitu mempelajari operator aritmatika menggunakan bahasa Pemrograman pyhton. Berikut source code yang di berikan oleh dosen :
-```python
+``` python
 #penggunaan end
 print('A', end='')
 print('B', end='')
@@ -128,18 +128,18 @@ Oke, kali ini saya akan menjelaskan tentang materi yang di berikan oleh Dosen.<b
 
 *Penggunaan END
 Penggunaan end digunakan untuk menambahkan karakter yang dicetak di akhir baris. secara default penggunaan end adalah untuk ganti baris.  
-```python
+``` python
 print('A', end='')
 print('B', end='')
 print('C', end='')
 ```
 > Penggunaan print () digunakan untuk mencetak output, seperti syntax dibawah ini :
 
-```python
+``` python
 print()
 ```
 >Syntax dibawah ini digunakan untuk menampilkan output berupa string
-```python
+``` python
 print('X')
 print('Y')
 print('z')
@@ -150,31 +150,31 @@ Hasil dari source code tersebut seperti gambar dibawah ini :<br>
 * Penggunaan separator
 
 >Pendeklarasian beberapa variable beserta nilainya
-```python
+``` python
 w,x,y,z=10,15,20,25
 ```
 
 >Menampilkan hasil dari variable tiap-tiap variable
-```python
+``` python
 print(w,x,y,z)
 ```
 
 >Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah : (koma)
-```python
+``` python
 print(w,x,y,z,sep=",")
 ```
 >Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah
-```python
+``` python
 print(w,x,y,z,sep="")
 ```
 
 >Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah : (titik dua)
-```python
+``` python
 print(w,x,y,z,sep=":")
 ```
 
 >Menampilkan hasil dari tiap-tiap variable dengan menggunakan pemisah -----
-```python
+``` python
 print(w,x,y,z,sep="-----")
 ```
 
@@ -195,7 +195,7 @@ String formatting atau pemformatan string memungkinan kita menyuntikkan item ked
 
 Penggunaan source code yang di berikan oleh dosen seperti berikut :
 ![Lab 1-2](gambar/Lab1-2.PNG)
-```python
+``` python
 #string format 1
 print(0, 10**0)
 print(1, 10**1)
@@ -224,9 +224,32 @@ print('{0:>3} {1:>16}'.format(10, 10**10))
 <br>
 Saat ini saya akan membahas satu persatu dari syntax yang telah diberikan oleh Dosen.<br>
 
-1.String Format 1 <br>
+1. **String Format 1** <br>
 Pada syntax / source code strring format satu akan menampilkan output berupa 2 outputan.<br>
 Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga 10, sedangkan untuk sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.<br> 
 Dengan ketentuan sebagai berikut, Operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] )<br>
  Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10, dengan output  sebagai berikut : <br>
  ![Operasi Aritmatika Pangkat](gambar/Lab1-2_pangkat.PNG)
+ 
+ 2 ** String Format 2** <br>
+ Pada syntax atau source code string format dua akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri )<br>
+ Dengan ketentuan sebagai berikut : <br>
+ >secara Default, **.format()** menggunakan rata kiri, angka ke kanan. kita dapat menggunakan opsi opsional <,^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan **.format()** sebagai berikut :<br> 
+
+ ``` python
+print('{0:8} | {1:9}'.format('buah','Jumlah'))
+print('{0:8} | {1:9}'.format('Apel',3.))
+print('{0:8} | {1:9}'.format('Jeruk',10))
+```
+Hasil dari source code contoh diatas akan seperti berikut :<br>
+![Output Alignment Contoh](gambar/contoh_12.PNG)
+>Secara Default,**.format()** menggunakan rata text ke kiri, angka ke kanan, kita dapat menggunakan opsi opsional<,^,atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan **.format()** sebagai berikut : <br>
+``` python
+print('{:<30}{:30}{:>30}'.format('kiri','tengah','kanan'))
+print('{:<30}{:30}{:>30}'.format(7,20,34))
+```
+Hasil dari source code contoh diatas akan muncul seperti ini :<br>
+![Output Alignment Contoh 2](gambar/contoh_123.PNG)
+<br><br>
+Untuk hasil dari String Format 2 adalah :<br>
+![Output String Format 2](gambar/string2.PNG)
