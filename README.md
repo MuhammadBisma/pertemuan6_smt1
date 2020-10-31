@@ -278,4 +278,43 @@ print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 Setelah saya menjelaskan source code tersebut terdapat error, seperti gambar dibawah ini :<br>
 
 ![Error Lab 2](gambar/error1.PNG)<br>
-Nah, untuk kali ini kita akan 
+Nah, untuk kali ini kita akan membaca error yang telah terjadi.<br>
+> **TypeError: %d format: number is required, not str** <br>
+
+Pada error tersebut terdapat terbaca bahwa variable tersebut a adalah string, yang seharusnya dibaca oleh system adalah Number / Interger.<br>
+*bagaimana cara memperbaiki error tersebut?*<br>
+Kita lihat pada baris ke 5 (di notifikasi terbaca bahwa error terletak pada baris ke 5), yaitu pemformatan **.format()** adalah interger, sedangkan jika berupa string maka akan ada tanda titik dua ("..") pada pemformatan **.format()**<br>
+Kita akan terfokus pada variable a dan b. <br> 
+Pada line 1 tertulis syntax : *a=input("masukan nilai a : ")* <br>
+Sedangkan pada line 2 tertulis syntax : *b=input("masukan nilai b : ")* <br>
+Untuk membuat inputan berupa interger/angka harus ditambahkan syntax int() pada format input(). yang seharusnya ditulis adalah : <br>
+``` python
+a=int(input("masukkan nilai a:"))
+b=int(input("masukkan nilai b:"))
+```  
+<br>
+Kita akan ulangi semua syntax pada file ini, maka tulis seperti ini :<br>
+
+``` python
+a=int(input("masukkan nilai a:"))
+b=int(input("masukkan nilai b:"))
+print("variable a=",a)
+print("variable b=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+Kita akan coba lagi untuk *run* file tersebut, maka akan muncul seperti gambar dibawah ini :<br>
+ ![Fixed Error Lab 2](gambar/fixed.PNG)
+ <br><br>
+ <hr>
+ Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas pertemuan 6 - Bahasa pemrograman kali ini,
+ <br>
+ 
+ ### ============= THANK YOU ============= <br>
+ ### PIKRI RAMDANI / 312010162 / TI.20 A.1 <br>
+ ### ===================================== <br>
