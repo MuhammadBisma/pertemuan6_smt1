@@ -313,7 +313,7 @@ Kita akan coba lagi untuk *run* file tersebut, maka akan muncul seperti gambar d
  ![Fixed Error Lab 2](gambar/fixed.PNG)
  <br><br>
  <hr>
- Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas pertemuan 6 - Bahasa pemrograman kali ini,
+ Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas pertemuan 6 - Bahasa pemrograman kali ini.
  <br>
  
  ### ============= THANK YOU ============= <br>
