@@ -1,4 +1,8 @@
-
+print("==============================")
+print("= NAMA    : PIKRI RAMDANI     ")
+print("= NIM     : 312010162         ")
+print("= KELAS   : TI.20 A.1         ")
+print("==============================")
 
 print("Please enter your full name : ")
 fullname=input()

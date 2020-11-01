@@ -280,7 +280,7 @@ Setelah saya menjelaskan source code tersebut terdapat error, seperti gambar dib
 
 ![Error Lab 2](gambar/error1.PNG)<br>
 Nah, untuk kali ini kita akan membaca error yang telah terjadi.<br>
-> **TypeError: %d format: number is required, not str** <br>
+> **TypeError: %d format: a number is required, not str** <br>
 
 Pada error tersebut terdapat terbaca bahwa variable tersebut a adalah string, yang seharusnya dibaca oleh system adalah Number / Interger.<br>
 *bagaimana cara memperbaiki error tersebut?*<br>
