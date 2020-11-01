@@ -209,7 +209,7 @@ print(8, 10**8)
 print(9, 10**9)
 print(10, 10**10)
 
-#string format 1
+#string format 2
 print('{0:>3} {1:>16}'.format(0, 10**0))
 print('{0:>3} {1:>16}'.format(1, 10**1))
 print('{0:>3} {1:>16}'.format(2, 10**2))
@@ -280,7 +280,7 @@ Setelah saya menjelaskan source code tersebut terdapat error, seperti gambar dib
 
 ![Error Lab 2](gambar/error1.PNG)<br>
 Nah, untuk kali ini kita akan membaca error yang telah terjadi.<br>
-> **TypeError: %d format: a number is required, not str** <br>
+> **TypeError: %d format: a  number is required, not str** <br>
 
 Pada error tersebut terdapat terbaca bahwa variable tersebut a adalah string, yang seharusnya dibaca oleh system adalah Number / Interger.<br>
 *bagaimana cara memperbaiki error tersebut?*<br>
